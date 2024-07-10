@@ -1,8 +1,8 @@
 import React from "react";
-import unerealImg1 from "../assets/images/png/powerd-img1.png";
-import uniswapImg2 from "../assets/images/png/powerd-img2.png";
-import geckoImg3 from "../assets/images/png/powered-img3.png";
-import polygonImg4 from "../assets/images/png/powered-img4.png";
+import unerealImg1 from "../assets/images/webp/powerd-img1.webp";
+import uniswapImg2 from "../assets/images/webp/powerd-img2.webp";
+import geckoImg3 from "../assets/images/webp/powered-img3.webp";
+import polygonImg4 from "../assets/images/webp/powered-img4.webp";
 import Slider from "react-slick";
 
 function Powered() {

@@ -1,8 +1,8 @@
 import React from "react";
-import UniBgImg from "../assets/images/png/uniswap-bg-img.png";
-import UniGoldBgLayer from "../assets/images/png/uni-gold-bgLayer.png";
-import goldBox from "../assets/images/png/gold-box.png";
-import HorseImg from "../assets/images/png/horse-img.png";
+import UniBgImg from "../assets/images/webp/uniswap-bg-img.webp";
+import UniGoldBgLayer from "../assets/images/webp/uni-gold-bgLayer.webp";
+import goldBox from "../assets/images/webp/gold-box.webp";
+import HorseImg from "../assets/images/webp/horse-img.webp";
 function Uniswap() {
   return (
     <div

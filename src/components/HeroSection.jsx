@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import HeroBGImg from "../assets/images/png/hero-bg-img.png";
-import PageLogo from "../assets/images/png/page-logo.png";
-import DiscordLogo from "../assets/images/png/discord-logo.png";
-import presaleLogo from "../assets/images/png/presale-logo.png";
+import HeroBGImg from "../assets/images/webp/hero-bg-img.webp";
+import PageLogo from "../assets/images/webp/page-logo.webp";
+import DiscordLogo from "../assets/images/webp/discord-logo.webp";
+import presaleLogo from "../assets/images/webp/presale-logo.webp";
 
 function HeroSection() {
   const [nav, setnav] = useState(false);

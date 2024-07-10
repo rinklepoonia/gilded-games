@@ -1,9 +1,9 @@
 import React from "react";
-import glidBgImg from "../assets/images/png/glid-bg-img.png";
-import billionImg from "../assets/images/png/billion-img.png";
-import presale from "../assets/images/png/presale-logo.png";
-import holdersImg from "../assets/images/png/holders-img.png";
-import nftsoldImg from "../assets/images/png/nft-sold-img.png";
+import glidBgImg from "../assets/images/webp/glid-bg-img.webp";
+import billionImg from "../assets/images/webp/billion-img.webp";
+import presale from "../assets/images/webp/presale-logo.webp";
+import holdersImg from "../assets/images/webp/holders-img.webp";
+import nftsoldImg from "../assets/images/webp/nft-sold-img.webp";
 import Slider from "react-slick";
 
 function Glid() {
