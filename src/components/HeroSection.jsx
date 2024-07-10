@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import HeroBGImg from "../assets/images/png/hero-bg-img.png";
 import PageLogo from "../assets/images/png/page-logo.png";
 import DiscordLogo from "../assets/images/png/discord-logo.png";
@@ -6,15 +6,60 @@ import presaleLogo from "../assets/images/png/presale-logo.png";
 
 function HeroSection() {
   const [nav, setnav] = useState(false);
-  const toggleNav = () => {
-    setnav(!nav);
-  };
 
   if (nav === true) {
     document.body.classList.add("overflow_hidden");
   } else {
     document.body.classList.remove("overflow_hidden");
   }
+   const initialTime = { days: 19, hours: 10, minutes: 2, seconds: 55 };
+
+   const [timeLeft, setTimeLeft] = useState(initialTime);
+   useEffect(() => {
+     const countdown = setInterval(() => {
+       if (
+         timeLeft.days === 0 &&
+         timeLeft.hours === 0 &&
+         timeLeft.minutes === 0 &&
+         timeLeft.seconds === 0
+       ) {
+         clearInterval(countdown);
+       } else {
+         if (timeLeft.seconds > 0) {
+           setTimeLeft((prevTime) => ({
+             ...prevTime,
+             seconds: prevTime.seconds - 1,
+           }));
+         } else {
+           if (timeLeft.minutes > 0) {
+             setTimeLeft((prevTime) => ({
+               ...prevTime,
+               minutes: prevTime.minutes - 1,
+               seconds: 59,
+             }));
+           } else {
+             if (timeLeft.hours > 0) {
+               setTimeLeft((prevTime) => ({
+                 ...prevTime,
+                 hours: prevTime.hours - 1,
+                 minutes: 59,
+                 seconds: 59,
+               }));
+             } else {
+               setTimeLeft((prevTime) => ({
+                 days: prevTime.days - 1,
+                 hours: 23,
+                 minutes: 59,
+                 seconds: 59,
+               }));
+             }
+           }
+         }
+       }
+     }, 1000);
+
+     return () => clearInterval(countdown);
+   }, [timeLeft]);
   return (
     <>
       <div
@@ -24,16 +69,19 @@ function HeroSection() {
         <div className="bg-[#0000001A] w-full">
           <div className="container max-w-[1320px] mx-auto px-3">
             <nav className="flex items-center justify-between h-[96px]">
-              <img
-                className="lg:max-w-[286px] max-w-[180px]"
-                src={PageLogo}
-                alt="PageLogo"
-              />
+              <a href="">
+                {" "}
+                <img
+                  className="lg:max-w-[286px] max-w-[180px]"
+                  src={PageLogo}
+                  alt="PageLogo"
+                />
+              </a>
               <div className="flex items-center gap-[29px]">
                 <ul
                   className={`${
-                    nav ? "end-0" : "right-[100%]"
-                  } flex items-center lg:gap-[40px] gap-[20px] mb-0 ps-0 max-xl:bg-black max-xl:min-h-screen max-xl:w-full max-xl:fixed max-xl:top-0 max-xl:right-[-100%] max-xl:flex max-xl:justify-center max-xl:items-center max-xl:flex-col max-xl:z-10`}
+                    nav ? "right_0" : "right_100"
+                  } flex items-center lg:gap-[40px] gap-[20px] mb-0 ps-0 mobile-view`}
                 >
                   <li>
                     <a
@@ -68,17 +116,18 @@ function HeroSection() {
                     </a>
                   </li>
                 </ul>
-                <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-[#FFFFFF] bg-gradient-tb shadow-shadow-btn sm:flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px]  hidden">
-                  <img
-                    className="max-w-[22.94px]"
-                    src={DiscordLogo}
-                    alt="DiscordLogo"
-                  />
-                  Discord
-                </button>
+                <a href="https://discord.com/" target="_blank">
+                  <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-[#FFFFFF] bg-gradient-tb shadow-shadow-btn sm:flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px]  hidden hover:bg-grident-rl transition duration-300 ease-linear">
+                    <img
+                      className="max-w-[22.94px]"
+                      src={DiscordLogo}
+                      alt="DiscordLogo"
+                    />
+                    Discord
+                  </button>
+                </a>
               </div>
-              {/* <div className="max-xl:block hidden" onClick={() => setnav(!nav)}> */}
-              <div className={`max-xl:block hidden`} onClick={toggleNav}>
+              <div className="xl:hidden z-10" onClick={() => setnav(!nav)}>
                 <span className="max-xl:h-[4px] max-xl:w-[35px] max-xl:bg-gradient-tb max-xl:block"></span>
                 <span className="max-xl:h-[4px] max-xl:w-[35px] max-xl:bg-gradient-tb max-xl:block max-xl:my-2"></span>
                 <span className="max-xl:h-[4px] max-xl:w-[35px] max-xl:bg-gradient-tb max-xl:block"></span>
@@ -94,14 +143,25 @@ function HeroSection() {
                 there are <span className="text-[#1BABFE]">Gilded</span> Games
               </span>
             </h1>
-            <p className="font-Josefin font-semibold lg:text-[36px] text-[28px] leading-[45.9px] text-white md:mt-5 mt-2">
-              <span className="text-[#1BABFE]">19d : </span> 10hr : 2min : 55sec
-            </p>
+            <div className="flex gap-[5px] justify-center mt-[20px]">
+              <p className=" font-Josefin font-semibold text-[29px] lg:text-[36px] leading-[45.9px] text-[#1BABFE]">
+                {timeLeft.days}d :
+              </p>
+              <p className=" font-Josefin font-semibold text-[29px] lg:text-[36px] leading-[45.9px] text-white">
+                {timeLeft.hours}hr :
+              </p>
+              <p className=" font-Josefin font-semibold text-[29px] lg:text-[36px] leading-[45.9px] text-white">
+                {timeLeft.minutes}min :
+              </p>
+              <p className=" font-Josefin font-semibold text-[29px] lg:text-[36px] leading-[45.9px] text-white">
+                {timeLeft.seconds}sec
+              </p>
+            </div>
             <p className="font-Josefin text-[18px] lh-[22.95px] text-white">
               Remaining Presale Time
             </p>
             <div className="flex flex-wrap items-center gap-6 justify-center mt-[22px]">
-              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white flex items-center gap-[10px] bg-grident-rl shadow-shadow-btn py-[14px] px-[34px] rounded-[79px]">
+              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white flex items-center gap-[10px] bg-grident-rl hover:bg-gradient-tb shadow-shadow-btn py-[14px] px-[34px] rounded-[79px] transition duration-300 ease-linear">
                 <img
                   className="max-w-[22px]"
                   src={presaleLogo}
@@ -109,7 +169,7 @@ function HeroSection() {
                 />
                 Presale
               </button>
-              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white border border-white px-[34px] py-[14px] rounded-[79px]">
+              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white border border-white px-[34px] py-[14px] rounded-[79px] hover:bg-gradient-tb transition duration-300 ease-linear">
                 Join Now
               </button>
             </div>

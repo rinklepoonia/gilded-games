@@ -11,7 +11,6 @@ module.exports = {
       backgroundImage: {
         "gradient-tb":
           "linear-gradient(to bottom, #815CC8 29.44%, #1BABFE 81.54%)",
-        // "gradient-lr": "linear-gradient(to right, #815CC8, #1BABFE)",
         "grident-rl": "linear-gradient(90deg, #815CC8 0%, #1BABFE 100%)",
 
         "gradient-token-box":

@@ -34,7 +34,7 @@ function Uniswap() {
                   Announcement and Games
                 </p>
               </div>
-              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-[#FFFFFF] bg-grident-rl shadow-shadow-btn flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px]">
+              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-[#FFFFFF] bg-grident-rl shadow-shadow-btn flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px] hover:bg-gradient-tb transition-all ease-linear duration-300">
                 <img className="w-[23.2px]" src={HorseImg} alt="HorseImg " />
                 Buy Now
               </button>
