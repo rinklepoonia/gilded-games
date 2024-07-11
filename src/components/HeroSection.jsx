@@ -118,7 +118,7 @@ function HeroSection() {
                   </li>
                 </ul>
                 <a href="https://discord.com/" target="_blank">
-                  <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white bg-gradient-tb shadow-shadow-btn sm:flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px] hidden hover:bg-grident-rl transition-all duration-300 ease-linear">
+                  <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white bg-gradient-tb shadow-shadow-btn sm:flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px] hidden hover:bg-grident-rl after:transition-all after:duration-300 after:ease-linear">
                     <img
                       className="max-w-[22.94px]"
                       src={DiscordLogo}

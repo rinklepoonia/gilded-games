@@ -30,20 +30,13 @@ module.exports = {
         screens: {
           sm: "540px",
           md: "720px",
-          lg: "1022px",
+          lg: "1024px",
           xl: "1344px",
         },
       },
       backgroundSize: {
         full: "100% 100%",
       },
-      // borderImage: {
-      //   gradient: "linear-gradient(90deg, #815CC8 0%, #1BABFE 100%)",
-      // },
-      // borderWidth: {
-      //   5: "5px",
-      // },
-
       boxShadow: {
         "shadow-btn": "0px 8px 30px 0px rgba(27, 171, 254, 0.5)",
       },
