@@ -39,7 +39,7 @@ function Powered() {
   };
   return (
     <div className="bg-black xl:pt-[58px] lg:pt-[80px] pt-[40px] xl:pb-[192px] pb-[50px] mt-[-1px]">
-      <div className="container px-3">
+      <div className="container">
         <h2 className="font-Josefin font-bold sm:text-[48px] text-[40px] lh-[61.2px] text-white xl:pb-[68px] sm:pb-[20px] pb-[5px]">
           <span className="gradient-text">Powered</span> By:
         </h2>

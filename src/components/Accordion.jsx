@@ -53,7 +53,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="container px-3 mx-auto">
+    <div className="container">
       {data.map((item, index) => (
         <AccordionItem
           key={index}

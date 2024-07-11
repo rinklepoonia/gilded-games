@@ -5,7 +5,7 @@ import UtilityGirlImg from "../assets/images/webp/utility-girl-img.webp";
 function Utility() {
   return (
     <div className="lg:bg-full bg-cover xl:pb-[194px] lg:pb-[23px] pb-[10px] mt-[-1px] bg-[url('./assets/images/webp/Utility-bg-img.webp')]">
-      <div className="container px-3">
+      <div className="container">
         <div className="row items-center">
           <div data-aos="fade-right" className="xl:w-[41.66%] w-full px-3">
             <h2 className="font-Josefin font-bold text-[48px] leading-[61px] text-[#7E5FCA] xl:text-start text-center lg:mb-4 sm:mb-2 mb-0">

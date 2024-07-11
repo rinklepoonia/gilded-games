@@ -16,7 +16,7 @@ function Footer() {
       className="bg-black mt-[1] lg:bg-full bg-cover xl:pt-[0] lg:pt-[55px] pt-[20px]"
       style={{ backgroundImage: `url(${footerBgImg})` }}
     >
-      <div className="container px-3">
+      <div className="container">
         <h2 className="font-poppins font-bold sm:text-[48px] text-[40px] sm:leading-[72px] leading-[50px] xl:pb-[81px] lg:pb-[35px] pb-[20px] text-white">
           Frequently Asked <span className="gradient-text">Questions</span>
         </h2>

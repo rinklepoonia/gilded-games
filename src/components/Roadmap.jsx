@@ -6,7 +6,7 @@ function Roadmap() {
       id="nodes"
       className="xl:pt-[92px] lg:pt-[110px] pt-[40px] pb-[75px] bg-black mt-[-2px] mb-[-3px]"
     >
-      <div className="container px-3">
+      <div className="container">
         <h2 className="font-Josefin font-bold sm:text-[48px] text-[40px] leading-[61.2px] text-white 2xl:pb-[115px] xl:pb-[75px] sm:pb-[36px] pb-[20px]">
           <span className="gradient-text">Road</span>map
         </h2>
