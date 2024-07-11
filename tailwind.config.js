@@ -25,8 +25,14 @@ module.exports = {
           "linear-gradient(110.75deg, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.03) 99.99%)",
       },
 
-      container: {  
+      container: {
         center: true,
+        screens: {
+          sm: "540px",
+          md: "720px",
+          lg: "1022px",
+          xl: "1344px",
+        },
       },
       backgroundSize: {
         full: "100% 100%",
