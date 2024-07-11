@@ -48,7 +48,7 @@ function Powered() {
             data-aos="fade-up"
             href="https://www.unrealengine.com/en-US"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
+            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border border-[#222222] hover:border-[#8E78D3] transition-all duration-300 ease-linear"
           >
             <img className="w-[274px]" src={unerealImg1} alt="unerealImg1" />
           </a>
@@ -56,7 +56,7 @@ function Powered() {
             data-aos="fade-down"
             href="https://uniswap.org/"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
+            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border border-[#222222] hover:border-[#8E78D3] transition-all duration-300 ease-linear"
           >
             <img className="w-[273px]" src={uniswapImg2} alt="uniswapImg2" />
           </a>
@@ -64,7 +64,7 @@ function Powered() {
             data-aos="fade-up"
             href="https://www.coingecko.com/"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
+            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border border-[#222222] hover:border-[#8E78D3] transition-all duration-300 ease-linear"
           >
             <img className="w-[247px]" src={geckoImg3} alt="geckoImg3" />
           </a>
@@ -72,7 +72,7 @@ function Powered() {
             data-aos="fade-down"
             href="https://polygon.technology/"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
+            className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border border-[#222222] transition-all duration-300 ease-linear hover:border-[#8E78D3]"
           >
             <img className="w-[261px]" src={polygonImg4} alt="polygonImg4" />
           </a>
@@ -81,28 +81,28 @@ function Powered() {
           <a
             href="https://www.unrealengine.com/en-US"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border"
+            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border hover:border-[#8E78D3]"
           >
             <img className="w-[274px]" src={unerealImg1} alt="unerealImg1" />
           </a>
           <a
             href="https://uniswap.org/"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border"
+            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border hover:border-[#8E78D3]"
           >
             <img className="w-[273px]" src={uniswapImg2} alt="uniswapImg2" />
           </a>
           <a
             href="https://www.coingecko.com/"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border"
+            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border hover:border-[#8E78D3]"
           >
             <img className="w-[247px]" src={geckoImg3} alt="geckoImg3" />
           </a>
           <a
             href="https://polygon.technology/"
             target="_blank"
-            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border"
+            className="bg-gradient-token-box w-[312px] h-[214px] !flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadaw-box border hover:border-[#8E78D3]"
           >
             <img className="w-[261px]" src={polygonImg4} alt="polygonImg4" />
           </a>

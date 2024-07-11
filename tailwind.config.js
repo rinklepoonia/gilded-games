@@ -39,6 +39,7 @@ module.exports = {
       },
       boxShadow: {
         "shadow-btn": "0px 8px 30px 0px rgba(27, 171, 254, 0.5)",
+        "shadaw-box": "0px 7px 30px 0px #1BABFE",
       },
     },
   },

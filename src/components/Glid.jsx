@@ -55,7 +55,7 @@ function Glid() {
         <div className="xl:flex gap-6 hidden justify-center">
           <div
             data-aos="fade-up"
-            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadaw-box border border-[#4A4A4A] hover:border-[#8E78D3]"
           >
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
@@ -73,7 +73,7 @@ function Glid() {
           </div>
           <div
             data-aos="fade-down"
-            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center items-center flex flex-col 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center items-center flex flex-col 2xl:px-[50px] px-[25px] hover:shadow-shadaw-box border border-[#4A4A4A] hover:border-[#8E78D3]"
           >
             <img className="w-[84px] mb-3" src={presale} alt="presale" />
             <p className="font-Josefin font-bold text-[30px] leading-[38.25px] text-white xl:text-nowrap">
@@ -82,7 +82,7 @@ function Glid() {
           </div>
           <div
             data-aos="fade-up"
-            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px]hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadaw-box border border-[#4A4A4A] hover:border-[#8E78D3]"
           >
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
@@ -100,7 +100,7 @@ function Glid() {
           </div>
           <div
             data-aos="fade-down"
-            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadaw-box border border-[#4A4A4A] hover:border-[#8E78D3]"
           >
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
@@ -118,7 +118,7 @@ function Glid() {
           </div>
         </div>
         <Slider {...settings} className="d_none flex">
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadow-btn  border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadaw-box  border-[#4A4A4A] hover:border-[#8E78D3]">
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
                 className="w-[63px] mb-2"
@@ -133,13 +133,13 @@ function Glid() {
               </p>
             </div>
           </div>
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center items-center !flex flex-col 2xl:px-[50px] px-[25px] border hover:shadow-shadow-btn border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center items-center !flex flex-col 2xl:px-[50px] px-[25px] border hover:shadow-shadaw-box border-[#4A4A4A] hover:border-[#8E78D3]">
             <img className="w-[84px] mb-3" src={presale} alt="presale" />
             <p className="font-Josefin font-bold text-[30px] leading-[38.25px] text-white xl:text-nowrap">
               Pre Sale Token
             </p>
           </div>
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadow-btn  border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadaw-box border-[#4A4A4A] hover:border-[#8E78D3]">
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
                 className="w-[70px] mb-3"
@@ -154,7 +154,7 @@ function Glid() {
               </p>
             </div>
           </div>
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadow-btn border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadaw-box border-[#4A4A4A] hover:border-[#8E78D3]">
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
                 className="w-[70px] mb-[10px]"
