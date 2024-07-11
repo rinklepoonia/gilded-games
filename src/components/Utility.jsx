@@ -4,7 +4,7 @@ import UtilityGirlImg from "../assets/images/webp/utility-girl-img.webp";
 
 function Utility() {
   return (
-    <div className="lg:bg-full bg-cover xl:pb-[194px] lg:pb-[23px] pb-[10px] mt-[-1px] bg-UtilityBgImg">
+    <div className="lg:bg-full bg-cover xl:pb-[194px] lg:pb-[23px] pb-[10px] mt-[-1px] bg-[url('./assets/images/webp/Utility-bg-img.webp')]">
       <div className="container px-3">
         <div className="row items-center">
           <div data-aos="fade-right" className="xl:w-[41.66%] w-full px-3">

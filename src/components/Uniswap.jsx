@@ -7,7 +7,7 @@ function Uniswap() {
   return (
     <div
       id="uniswap"
-      className="UniBgImg lg:bg-full bg-cover relative xl:pt-[213px] xl:pb-[200px] lg:pt-[50px] pt-[20px] pb-[50px] bg-UniBgImg"
+      className="UniBgImg lg:bg-full bg-cover relative xl:pt-[213px] xl:pb-[200px] lg:pt-[50px] pt-[20px] pb-[50px] bg-[url('./assets/images/webp/uniswap-bg-img.webp')]"
     >
       <div className="container px-3">
         <div className="row">

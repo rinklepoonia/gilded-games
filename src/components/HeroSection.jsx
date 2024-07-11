@@ -62,7 +62,7 @@ function HeroSection() {
   }, [timeLeft]);
   return (
     <>
-      <div className="flex flex-col items-center xl:h-[931px] h-[inherit] lg:bg-full bg-cover bg-HeroBGImg">
+      <div className="flex flex-col items-center xl:h-[931px] h-[inherit] bg-[url('./assets/images/webp/hero-bg-img.webp')] lg:bg-full bg-cover">
         <div className="bg-lightBlack w-full">
           <div className="container px-3">
             <nav className="flex items-center justify-between h-[96px]">

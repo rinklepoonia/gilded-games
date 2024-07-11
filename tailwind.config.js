@@ -24,14 +24,8 @@ module.exports = {
         "grident-footer-IconBox":
           "linear-gradient(110.75deg, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.03) 99.99%)",
       },
-      backgroundImage: {
-        HeroBGImg: "url('./assets/images/webp/hero-bg-img.webp')",
-        glidBgImg: "url('./assets/images/webp/glid-bg-img.webp')",
-        ParaGlidedBgImg: "url('./assets/images/webp/games-para-bg-img.webp')",
-        UniBgImg: "url('./assets/images/webp/uniswap-bg-img.webp')",
-        UtilityBgImg: "url('./assets/images/webp/Utility-bg-img.webp')",
-      },
-      container: {
+
+      container: {  
         center: true,
       },
       backgroundSize: {

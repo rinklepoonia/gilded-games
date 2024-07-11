@@ -43,7 +43,7 @@ function Glid() {
   return (
     <div
       id="glid"
-      className="bg-full xl:pt-[162px] xl:pb-[136px] pt-[30px] pb-[30px] bg-glid-bg-img"
+      className="bg-full xl:pt-[162px] xl:pb-[136px] pt-[30px] pb-[30px] bg-[url('./assets/images/webp/glid-bg-img.webp')]"
     >
       <div className="container mx-auto px-3">
         <h2
