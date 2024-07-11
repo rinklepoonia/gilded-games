@@ -6,14 +6,17 @@ import HorseImg from "../assets/images/webp/horse-img.webp";
 function Uniswap() {
   return (
     <div
-      className="UniBgImg lg:bg-full bg-cover relative xl:pt-[213px] xl:pb-[133px] pt-[50px] pb-[50px]"
-      style={{ backgroundImage: `url(${UniBgImg})` }}
+      id="uniswap"
+      className="UniBgImg lg:bg-full bg-cover relative xl:pt-[213px] xl:pb-[200px] lg:pt-[50px] pt-[20px] pb-[50px] bg-UniBgImg"
     >
-      <div className="container max-w-[1320px] mx-auto px-3">
+      <div className="container px-3">
         <div className="row">
-          <div className="lg:w-[50%] w-full px-3 flex xl:justify-start justify-center lg:items-end">
+          <div
+            data-aos="fade-right"
+            className="lg:w-[50%] w-full px-3 flex xl:justify-start justify-center lg:items-end"
+          >
             <div className="blank">
-              <h2 className="font-Josefin font-bold sm:text-[48px] text-[40px] leading-[61.2px] text-white sm:mb-[21px] mb-[5px] text-start">
+              <h2 className="font-Josefin font-bold sm:text-[48px] text-[40px] leading-[61.2px] text-white lg:mb-[21px] mb-[5px] text-start">
                 Buy On <span className="gradient-text">Uniswap</span>
               </h2>
               <div className="flex items-center gap-3 mb-3">
@@ -40,9 +43,12 @@ function Uniswap() {
               </button>
             </div>
           </div>
-          <div className="lg:w-[50%] w-full px-3 flex 2xl:justify-center xl:justify-start justify-center">
+          <div
+            data-aos="fade-left"
+            className="lg:w-[50%] w-full px-3 flex 2xl:justify-center xl:justify-start justify-center"
+          >
             <img
-              className="w-[341px] sm:mt-[87px] mt-[50px]"
+              className="w-[341px] sm:mt-[33px] mt-[50px]"
               src={goldBox}
               alt="goldBox"
             />

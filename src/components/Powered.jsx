@@ -9,7 +9,6 @@ function Powered() {
   var settings = {
     dots: false,
     arrows: false,
-    // autoplay: true,
     autoplaySpeed: 1000,
     cssEase: "linear",
     pauseOnHover: true,
@@ -39,13 +38,14 @@ function Powered() {
     ],
   };
   return (
-    <div className="bg-black pt-[58px] xl:pb-[192px] pb-[50px] mt-[-1px]">
-      <div className="container max-w-[1320px] mx-auto px-3">
-        <h2 className="font-Josefin font-bold sm:text-[48px] text-[40px] lh-[61.2px] text-white xl:pb-[68px] pb-[20px]">
+    <div className="bg-black xl:pt-[58px] lg:pt-[80px] pt-[40px] xl:pb-[192px] pb-[50px] mt-[-1px]">
+      <div className="container px-3">
+        <h2 className="font-Josefin font-bold sm:text-[48px] text-[40px] lh-[61.2px] text-white xl:pb-[68px] sm:pb-[20px] pb-[5px]">
           <span className="gradient-text">Powered</span> By:
         </h2>
-        <div className="xl:flex hidden gap-[24px]">
+        <div className="xl:flex hidden gap-[24px] justify-center">
           <a
+            data-aos="fade-up"
             href="https://www.unrealengine.com/en-US"
             target="_blank"
             className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
@@ -53,6 +53,7 @@ function Powered() {
             <img className="w-[274px]" src={unerealImg1} alt="unerealImg1" />
           </a>
           <a
+            data-aos="fade-down"
             href="https://uniswap.org/"
             target="_blank"
             className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
@@ -60,6 +61,7 @@ function Powered() {
             <img className="w-[273px]" src={uniswapImg2} alt="uniswapImg2" />
           </a>
           <a
+            data-aos="fade-up"
             href="https://www.coingecko.com/"
             target="_blank"
             className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"
@@ -67,6 +69,7 @@ function Powered() {
             <img className="w-[247px]" src={geckoImg3} alt="geckoImg3" />
           </a>
           <a
+            data-aos="fade-down"
             href="https://polygon.technology/"
             target="_blank"
             className="bg-gradient-token-box w-[312px] h-[214px] flex justify-center items-center rounded-[24px] hover:bg-grident-rl hover:shadow-shadow-btn border border-[#222222] transition-all duration-300 ease-linear"

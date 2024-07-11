@@ -2,16 +2,8 @@
   text-align: center;
 }
 
-.linear-border::after {
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-}
-
-@media (max-width: 1280px) {
+@media (max-width: 1279.99px) {
   .mobile-view {
-    background: transparent;
-    /* backdrop-filter: blur(20px); */
     background: black;
     width: 100%;
     height: 100%;

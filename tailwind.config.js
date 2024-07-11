@@ -3,6 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors: {
+        skyblue: "#1BABFE",
+        lightBlack: "#0000001A",
+        lightGrey: "#B2B2B2",
+        lightgrey: "#B6B6B7",
+        BorderGrey: "#272728",
+      },
       fontFamily: {
         Josefin: "'Josefin sans' , sans-serif",
         poppins: "'poppins' , sans-serif",
@@ -12,21 +19,30 @@ module.exports = {
         "gradient-tb":
           "linear-gradient(to bottom, #815CC8 29.44%, #1BABFE 81.54%)",
         "grident-rl": "linear-gradient(90deg, #815CC8 0%, #1BABFE 100%)",
-
         "gradient-token-box":
           "linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(196, 196, 196, 0) 100%, rgba(255, 255, 255, 0.03) 100%)",
         "grident-footer-IconBox":
           "linear-gradient(110.75deg, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.03) 99.99%)",
       },
+      backgroundImage: {
+        HeroBGImg: "url('./assets/images/webp/hero-bg-img.webp')",
+        glidBgImg: "url('./assets/images/webp/glid-bg-img.webp')",
+        ParaGlidedBgImg: "url('./assets/images/webp/games-para-bg-img.webp')",
+        UniBgImg: "url('./assets/images/webp/uniswap-bg-img.webp')",
+        UtilityBgImg: "url('./assets/images/webp/Utility-bg-img.webp')",
+      },
+      container: {
+        center: true,
+      },
       backgroundSize: {
         full: "100% 100%",
       },
-      borderImage: {
-        gradient: "linear-gradient(90deg, #815CC8 0%, #1BABFE 100%)",
-      },
-      borderWidth: {
-        5: "5px",
-      },
+      // borderImage: {
+      //   gradient: "linear-gradient(90deg, #815CC8 0%, #1BABFE 100%)",
+      // },
+      // borderWidth: {
+      //   5: "5px",
+      // },
 
       boxShadow: {
         "shadow-btn": "0px 8px 30px 0px rgba(27, 171, 254, 0.5)",

@@ -11,6 +11,9 @@
     @apply flex flex-wrap flex-row mx-[-12px];
   }
 }
+*{
+  scroll-behavior: smooth;
+}
 .gradient-text {
   background-image: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
   -webkit-background-clip: text;
@@ -20,6 +23,11 @@
 .slick-track {
   gap: 10px !important;
   display: flex !important;
+}
+.border_Earn::after {
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  /* mask-composite: exclude; */
 }
 
 @media (min-width: 1280px) {

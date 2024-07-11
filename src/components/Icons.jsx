@@ -169,4 +169,59 @@ export const RoundGridentSvg = () => {
     </svg>
   );
 };
+export const Arrowacc = () => {
+  return (
+    <svg
+      width="20"
+      height="10"
+      viewBox="0 0 20 10"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2.12305L10 8.12305L18 2.12305"
+        stroke="white"
+        stroke-width="2.62342"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+export const Arrowacc2 = () => {
+  return (
+    <svg
+      width="20"
+      height="10"
+      viewBox="0 0 20 10"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 8.12305L10 2.12305L18 8.12305"
+        stroke="white"
+        stroke-width="2.62342"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+export const AccArrow = () => {
+  return (
+    <svg
+      width="24"
+      height="16"
+      viewBox="0 0 24 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.7"
+        d="M23.7071 8.96004C24.0976 8.56951 24.0976 7.93635 23.7071 7.54582L17.3431 1.18186C16.9526 0.791337 16.3195 0.791337 15.9289 1.18186C15.5384 1.57239 15.5384 2.20555 15.9289 2.59608L21.5858 8.25293L15.9289 13.9098C15.5384 14.3003 15.5384 14.9335 15.9289 15.324C16.3195 15.7145 16.9526 15.7145 17.3431 15.324L23.7071 8.96004ZM0 9.25293H23V7.25293H0V9.25293Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
 

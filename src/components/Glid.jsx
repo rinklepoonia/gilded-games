@@ -42,15 +42,21 @@ function Glid() {
   };
   return (
     <div
-      className="bg-full xl:pt-[130px] xl:pb-[136px] pt-[30px] pb-[30px]"
-      style={{ backgroundImage: `url(${glidBgImg})` }}
+      id="glid"
+      className="bg-full xl:pt-[162px] xl:pb-[136px] pt-[30px] pb-[30px] bg-glid-bg-img"
     >
-      <div className="container max-w-[1320px] mx-auto px-3">
-        <h2 className="font-Josefin font-bold text-[48px] leading-[61.2px] text-white xl:pb-[59px] pb-[20px]">
+      <div className="container mx-auto px-3">
+        <h2
+          data-aos="zoom-in"
+          className="font-Josefin font-bold sm:text-[48px] text-[40px] leading-[61.2px] text-white xl:pb-[59px] pb-[20px]"
+        >
           <span className="gradient-text ">$GILD</span> Token Info
         </h2>
-        <div className="xl:flex gap-6 hidden">
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]">
+        <div className="xl:flex gap-6 hidden justify-center">
+          <div
+            data-aos="fade-up"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+          >
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
                 className="w-[63px] mb-2"
@@ -65,13 +71,19 @@ function Glid() {
               </p>
             </div>
           </div>
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center items-center flex flex-col 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div
+            data-aos="fade-down"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center items-center flex flex-col 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+          >
             <img className="w-[84px] mb-3" src={presale} alt="presale" />
             <p className="font-Josefin font-bold text-[30px] leading-[38.25px] text-white xl:text-nowrap">
               Pre Sale Token
             </p>
           </div>
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px]hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div
+            data-aos="fade-up"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px]hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+          >
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
                 className="w-[70px] mb-3"
@@ -86,7 +98,10 @@ function Glid() {
               </p>
             </div>
           </div>
-          <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]">
+          <div
+            data-aos="fade-down"
+            className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center flex 2xl:px-[50px] px-[25px] hover:shadow-shadow-btn border border-[#4A4A4A] hover:border-[#8E78D3]"
+          >
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
                 className="w-[70px] mb-[10px]"
