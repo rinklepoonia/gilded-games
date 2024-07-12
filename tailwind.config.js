@@ -33,7 +33,7 @@ module.exports = {
           sm: "540px",
           md: "720px",
           lg: "1000px",
-          xl: "1344px",
+          xl: "1320px",
         },
       },
       backgroundSize: {
