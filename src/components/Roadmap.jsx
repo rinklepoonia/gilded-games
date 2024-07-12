@@ -14,7 +14,7 @@ function Roadmap() {
         <div className="relative xl:block hidden">
           <div
             data-aos="fade-up"
-            className="flex justify-between mt-[69px] max-lg:flex-col gap-5 relative lg:after:content-[''] lg:after:absolute lg:after:w-full lg:after:h-[2px] lg:after:bg-[#333333] lg:after:top-[-69px] xl:after:max-w-[1132px] after:max-w-[800px]"
+            className="flex  justify-between mt-[69px] max-lg:flex-col gap-5 relative lg:after:content-[''] lg:after:absolute lg:after:w-full lg:after:h-[2px] lg:after:bg-[#333333] lg:after:top-[-69px] xl:after:max-w-[1132px] after:max-w-[800px]"
           >
             <div className="flex flex-col relative after:content-[''] after:absolute after:w-[65px] after:h-[62px] after:bg-grident-rl after:shadow-shadow-btn after:rounded-[50%] after:top-[-103px] after:z-[2]">
               <p className="font-poppins font-semibold text-[18px] leading-[23.22px] text-white flex">
@@ -48,7 +48,7 @@ function Roadmap() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col relative after:content-[''] after:absolute after:w-[53px] after:h-[50px] after:bg-grident-rl after:shadow-shadow-btn after:rounded-[50%] after:top-[-130px] after:z-[2]">
+            <div className="flex flex-col relative after:content-[''] after:absolute after:w-[53px] after:h-[50px] after:bg-grident-rl after:shadow-shadow-btn after:rounded-[50%] after:top-[-97px] after:z-[2]">
               <p className="font-poppins font-semibold text-[18px] leading-[23.22px] text-white flex">
                 Phase 2
               </p>
@@ -162,7 +162,7 @@ function Roadmap() {
                       Token & Staking Release
                     </p>
                   </div>
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-4 mb-8">
                     <div className="w-[5px] h-[5px] bg-[#B2B2B2] rounded-[50%]"></div>
                     <p className="font-mont font-normal text-[18px] leading-[32.4px] text-[#B2B2B2]">
                       Staking Gameplay
