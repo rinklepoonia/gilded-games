@@ -8,7 +8,7 @@ const AccordionItem = ({ heading, question, answer, isOpen, onClick }) => {
   return (
     <div
       data-aos="flip-up"
-      className="wrapper overflow-hidden mb-6 border-[1px] border-[#2B2B2D] bg-[#131516bd] "
+      className="wrapper overflow-hidden mb-6 border-[1px] border-[#2B2B2D] bg-[#131516bd] rounded-[13px]"
     >
       <button
         className={`question-container w-full text-left sm:py-6 py-3 px-5 flex items-center justify-between cursor-pointer ${

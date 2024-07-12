@@ -6,7 +6,7 @@ import paraBottomComa from "../assets/images/webp/para-bottom-coma.webp";
 function ParaGilded() {
   return (
     <div className="bg-full  xl:h-[705px] h-[400px] flex justify-center items-center mt-[-1px] bg-[url('./assets/images/webp/games-para-bg-img.webp')]">
-      <div className="container">
+      <div className="container sm:px-0 px-3">
         <div data-aos="fade-up" className="relative">
           <div className="absolute xl:top-[-58px] top-[-95px] 2xl:left-[9%] left-[109px] xl:block hidden">
             <img className="w-[102px]" src={paraTopComa} alt="paraTopComa" />

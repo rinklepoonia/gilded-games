@@ -5,7 +5,7 @@ import gif from "../assets/images/gif/earn-gif.gif";
 function Earn() {
   return (
     <div id="earn" className="bg-black relative xl:pb-[110px] pb-[50px]">
-      <div className="container">
+      <div className="container sm:px-0 px-3">
         <h2
           data-aos="fade-up"
           className="font-Josefin font-bold text-[48px] leading-[61px] text-white lg:mb-4 mb-0"

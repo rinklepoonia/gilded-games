@@ -1,5 +1,6 @@
 import React from "react";
 import UniBgImg from "../assets/images/webp/uniswap-bg-img.webp";
+import Unibg from "../assets/images/webp/uniswap-background-img.webp";
 import UniGoldBgLayer from "../assets/images/webp/uni-gold-bgLayer.webp";
 import goldBox from "../assets/images/webp/gold-box.webp";
 import HorseImg from "../assets/images/webp/horse-img.webp";
@@ -7,9 +8,9 @@ function Uniswap() {
   return (
     <div
       id="uniswap"
-      className="UniBgImg lg:bg-full bg-cover relative xl:pt-[213px] xl:pb-[200px] lg:pt-[50px] pt-[20px] pb-[50px] bg-[url('./assets/images/webp/uniswap-bg-img.webp')]"
+      className="UniBgImg lg:bg-full bg-cover relative xl:pt-[213px] xl:pb-[200px] lg:pt-[50px] pt-[20px] pb-[50px] xl:bg-[url('./assets/images/webp/uniswap-background-img.webp')] bg-[url('./assets/images/webp/uniswap-bg-img.webp')]"
     >
-      <div className="container">
+      <div className="container sm:px-0 px-3">
         <div className="row">
           <div
             data-aos="fade-right"
@@ -45,7 +46,7 @@ function Uniswap() {
           </div>
           <div
             data-aos="fade-left"
-            className="lg:w-[50%] w-full px-3 flex 2xl:justify-center xl:justify-start justify-center"
+            className="lg:w-[50%] w-full px-3 flex justify-center"
           >
             <img
               className="w-[341px] sm:mt-[33px] mt-[50px]"
@@ -55,9 +56,9 @@ function Uniswap() {
           </div>
         </div>
       </div>
-      <div className="absolute lg:end-0 lg:top-[213px] md:top-[447px] xl:block hidden">
+      {/* <div className="absolute lg:end-0 lg:top-[213px] md:top-[447px] xl:block hidden">
         <img className="w-[961px]" src={UniGoldBgLayer} alt="UniGoldBgLayer" />
-      </div>
+      </div> */}
     </div>
   );
 }
