@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+@media (min-width: 1280px) {
+  .d-none {
+    display: none !important;
+  }
+}
 @media (max-width: 1279.99px) {
   .mobile-view {
     background: black;
@@ -34,4 +38,3 @@
     right: 0;
   }
 }
-

@@ -77,7 +77,7 @@ function Powered() {
             <img className="w-[261px]" src={polygonImg4} alt="polygonImg4" />
           </a>
         </div>
-        <Slider {...settings} className="d_none flex">
+        <Slider {...settings} className="d-none flex">
           <a
             href="https://www.unrealengine.com/en-US"
             target="_blank"

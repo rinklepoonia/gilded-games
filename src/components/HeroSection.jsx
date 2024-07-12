@@ -61,7 +61,7 @@ function HeroSection() {
   }, [timeLeft]);
   return (
     <>
-      <div className="flex flex-col items-center xl:h-[931px] h-[inherit] bg-[url('./assets/images/webp/hero-bg-img.webp')] lg:bg-full bg-cover">
+      <div className="flex flex-col items-center lg:h-[931px] h-[inherit] bg-[url('./assets/images/webp/hero-bg-img.webp')] lg:bg-full bg-cover">
         <div className="bg-lightBlack w-full">
           <div className="container sm:px-0 px-3">
             <nav className="flex items-center justify-between h-[96px]">
@@ -128,9 +128,9 @@ function HeroSection() {
                 </a>
               </div>
               <div className="d_none z-10" onClick={() => setnav(!nav)}>
-                <span className="max-xl:h-[4px] max-xl:w-[35px] max-xl:bg-gradient-tb max-xl:block"></span>
-                <span className="max-xl:h-[4px] max-xl:w-[35px] max-xl:bg-gradient-tb max-xl:block max-xl:my-2"></span>
-                <span className="max-xl:h-[4px] max-xl:w-[35px] max-xl:bg-gradient-tb max-xl:block"></span>
+                <span className="max-xxl:h-[4px] max-xxl:w-[35px] max-xxl:bg-gradient-tb max-xxl:block"></span>
+                <span className="max-xxl:h-[4px] max-xxl:w-[35px] max-xxl:bg-gradient-tb max-xxl:block max-xxl:my-2"></span>
+                <span className="max-xxl:h-[4px] max-xxl:w-[35px] max-xxl:bg-gradient-tb max-xxl:block"></span>
               </div>
             </nav>
           </div>

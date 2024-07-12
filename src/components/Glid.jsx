@@ -117,7 +117,7 @@ function Glid() {
             </div>
           </div>
         </div>
-        <Slider {...settings} className="d_none flex">
+        <Slider {...settings} className="d-none flex">
           <div className="w-[312px] h-[181px] bg-gradient-token-box hover:bg-grident-rl rounded-[13px] transition ease-linear duration-300 cursor-pointer justify-center !flex 2xl:px-[50px] px-[25px] border hover:shadow-shadaw-box  border-[#4A4A4A] hover:border-[#8E78D3]">
             <div className="w-[216px] items-center justify-center flex flex-col">
               <img
