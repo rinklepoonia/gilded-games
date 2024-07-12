@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import HeroBGImg from "../assets/images/webp/hero-bg-img.webp";
 import PageLogo from "../assets/images/webp/page-logo.webp";
 import DiscordLogo from "../assets/images/webp/discord-logo.webp";
 import presaleLogo from "../assets/images/webp/presale-logo.webp";

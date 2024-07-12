@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { TECollapse } from "tw-elements-react";
 import FooterLogo from "../assets/images/webp/footer-logo.webp";
-import footerBgImg from "../assets/images/webp/footer-bg-image.webp";
 import { DiscordSvg } from "./Icons";
 import { TwitterSvg } from "./Icons";
 import { Telegram } from "./Icons";

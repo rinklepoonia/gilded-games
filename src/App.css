@@ -3,6 +3,18 @@
 }
 
 @media (max-width: 1279.99px) {
+  .z-5 {
+    z-index: 5;
+  }
+  .overflow_hidden {
+    overflow: hidden;
+  }
+  .right_100 {
+    right: 100%;
+  }
+  .right_0 {
+    right: 0;
+  }
   .mobile-view {
     background: black;
     width: 100%;
@@ -17,21 +29,4 @@
     z-index: 5;
     transition: all 300ms linear;
   }
-
-  .z-5 {
-    z-index: 5;
-  }
-
-  .overflow_hidden {
-    overflow: hidden;
-  }
-
-  .right_100 {
-    right: 100%;
-  }
-
-  .right_0 {
-    right: 0;
-  }
 }
-

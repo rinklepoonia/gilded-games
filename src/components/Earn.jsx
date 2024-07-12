@@ -54,9 +54,3 @@ function Earn() {
   );
 }
 export default Earn;
-{
-  /* <div className="linear-border md:mt-[48px] relative after:bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] after:absolute after:border-[5px] after:border-transparent after:rounded-[13px] after:w-full after:inset-0 after:z-[0]">
-  <img src={Gifearn} alt="Gifearn" className="xl:h-[561px] w-[1320px]" />
-</div>; */
-}
-// after: [background: linear - gradient(90deg,#815CC8_0 %,#1BABFE_100 %)border - box]

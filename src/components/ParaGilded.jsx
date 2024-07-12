@@ -1,5 +1,4 @@
 import React from "react";
-import ParaGlidedBgImg from "../assets/images/webp/games-para-bg-img.webp";
 import paraTopComa from "../assets/images/webp/para-top-coma.webp";
 import paraBottomComa from "../assets/images/webp/para-bottom-coma.webp";
 

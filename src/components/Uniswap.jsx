@@ -1,7 +1,4 @@
 import React from "react";
-import UniBgImg from "../assets/images/webp/uniswap-bg-img.webp";
-import Unibg from "../assets/images/webp/uniswap-background-img.webp";
-import UniGoldBgLayer from "../assets/images/webp/uni-gold-bgLayer.webp";
 import goldBox from "../assets/images/webp/gold-box.webp";
 import HorseImg from "../assets/images/webp/horse-img.webp";
 function Uniswap() {
@@ -56,9 +53,6 @@ function Uniswap() {
           </div>
         </div>
       </div>
-      {/* <div className="absolute lg:end-0 lg:top-[213px] md:top-[447px] xl:block hidden">
-        <img className="w-[961px]" src={UniGoldBgLayer} alt="UniGoldBgLayer" />
-      </div> */}
     </div>
   );
 }

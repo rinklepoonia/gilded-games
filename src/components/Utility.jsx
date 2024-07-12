@@ -1,5 +1,4 @@
 import React from "react";
-import UtilityBgImg from "../assets/images/webp/Utility-bg-img.webp";
 import UtilityGirlImg from "../assets/images/webp/utility-girl-img.webp";
 
 function Utility() {

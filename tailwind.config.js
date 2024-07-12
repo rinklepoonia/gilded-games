@@ -24,7 +24,9 @@ module.exports = {
         "grident-footer-IconBox":
           "linear-gradient(110.75deg, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.03) 99.99%)",
       },
-
+      screens: {
+        XL: "1400px",
+      },
       container: {
         center: true,
         screens: {

@@ -1,4 +1,5 @@
 import React from "react";
+import LineImg from "../assets/images/webp/line-roadmap.webp";
 
 function Roadmap() {
   return (
@@ -13,7 +14,7 @@ function Roadmap() {
         <div className="relative lg:block hidden">
           <div
             data-aos="fade-up"
-            className="flex items-center justify-between mt-[69px] max-lg:flex-col gap-5 relative lg:after:content-[''] lg:after:absolute lg:after:w-full lg:after:h-[2px] lg:after:bg-[#333333] lg:after:top-[-69px] 2xl:after:max-w-[1147px] xl:after:max-w-[1115px] after:max-w-[800px]"
+            className="flex items-center justify-between mt-[69px] max-lg:flex-col gap-5 relative lg:after:content-[''] lg:after:absolute lg:after:w-full lg:after:h-[2px] lg:after:bg-[#333333] lg:after:top-[-69px] 2xl:after:max-w-[1147px]  xl:after:max-w-[1115px] after:max-w-[800px]"
           >
             <div className="flex flex-col relative after:content-[''] after:absolute after:w-[65px] after:h-[62px] after:bg-grident-rl after:shadow-shadow-btn after:rounded-[50%] after:top-[-103px] after:z-[2]">
               <p className="font-poppins font-semibold text-[18px] leading-[23.22px] text-white flex">
@@ -100,13 +101,11 @@ function Roadmap() {
               </div>
             </div>
           </div>
-          {/* <div>
-            <img
-              className="w-full absolute top-[-33%]"
-              src={lineImg}
-              alt="lineImg"
-            />
-          </div> */}
+          <img
+            className="w-full absolute top-[-25%] right-[-161px] max-w-[335px] XL:block hidden"
+            src={LineImg}
+            alt="LineImg"
+          />
         </div>
         <div className="relative block lg:hidden">
           <div className="flex relative justify-center">
