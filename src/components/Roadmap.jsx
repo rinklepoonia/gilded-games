@@ -14,7 +14,7 @@ function Roadmap() {
         <div className="relative xl:block hidden">
           <div
             data-aos="fade-up"
-            className="flex items-center justify-between mt-[69px] max-lg:flex-col gap-5 relative lg:after:content-[''] lg:after:absolute lg:after:w-full lg:after:h-[2px] lg:after:bg-[#333333] lg:after:top-[-69px] xl:after:max-w-[1147px] after:max-w-[800px]"
+            className="flex justify-between mt-[69px] max-lg:flex-col gap-5 relative lg:after:content-[''] lg:after:absolute lg:after:w-full lg:after:h-[2px] lg:after:bg-[#333333] lg:after:top-[-69px] xl:after:max-w-[1132px] after:max-w-[800px]"
           >
             <div className="flex flex-col relative after:content-[''] after:absolute after:w-[65px] after:h-[62px] after:bg-grident-rl after:shadow-shadow-btn after:rounded-[50%] after:top-[-103px] after:z-[2]">
               <p className="font-poppins font-semibold text-[18px] leading-[23.22px] text-white flex">
