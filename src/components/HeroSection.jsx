@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import PageLogo from "../assets/images/webp/page-logo.webp";
 import DiscordLogo from "../assets/images/webp/discord-logo.webp";
 import presaleLogo from "../assets/images/webp/presale-logo.webp";
+import { Cross, Threeline } from "../components/Icons";
 
 function HeroSection() {
   const [nav, setnav] = useState(false);
@@ -61,17 +62,13 @@ function HeroSection() {
   }, [timeLeft]);
   return (
     <>
-      <div className="flex flex-col items-center lg:h-[931px] h-[inherit] bg-[url('./assets/images/webp/hero-bg-img.webp')] lg:bg-full bg-cover">
+      <div className="flex flex-col items-center min-h-screen bg-[url('./assets/images/webp/hero-bg-img.webp')] xl:bg-full bg-cover">
         <div className="bg-lightBlack w-full">
           <div className="container sm:px-0 px-3">
             <nav className="flex items-center justify-between h-[96px]">
               <a href="">
                 {" "}
-                <img
-                  className="lg:max-w-[286px] max-w-[180px]"
-                  src={PageLogo}
-                  alt="PageLogo"
-                />
+                <img className="max-w-[286px]" src={PageLogo} alt="PageLogo" />
               </a>
               <div className="flex items-center gap-[29px]">
                 <ul
@@ -115,9 +112,21 @@ function HeroSection() {
                       $GILD Nodes
                     </a>
                   </li>
+                  <li>
+                    <a href="https://discord.com/" target="_blank">
+                      <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white bg-gradient-tb shadow-shadow-btn flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px] xl:hidden hover:bg-grident-rl after:transition-all after:duration-300 after:ease-linear">
+                        <img
+                          className="max-w-[22.94px]"
+                          src={DiscordLogo}
+                          alt="DiscordLogo"
+                        />
+                        Discord
+                      </button>
+                    </a>
+                  </li>
                 </ul>
                 <a href="https://discord.com/" target="_blank">
-                  <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white bg-gradient-tb shadow-shadow-btn sm:flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px] hidden hover:bg-grident-rl after:transition-all after:duration-300 after:ease-linear">
+                  <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white bg-gradient-tb shadow-shadow-btn xl:flex items-center gap-[10px] py-[14px] px-[34px] rounded-[79px] hidden hover:bg-grident-rl after:transition-all after:duration-300 after:ease-linear">
                     <img
                       className="max-w-[22.94px]"
                       src={DiscordLogo}
@@ -127,15 +136,13 @@ function HeroSection() {
                   </button>
                 </a>
               </div>
-              <div className="d_none z-10" onClick={() => setnav(!nav)}>
-                <span className="max-xxl:h-[4px] max-xxl:w-[35px] max-xxl:bg-gradient-tb max-xxl:block"></span>
-                <span className="max-xxl:h-[4px] max-xxl:w-[35px] max-xxl:bg-gradient-tb max-xxl:block max-xxl:my-2"></span>
-                <span className="max-xxl:h-[4px] max-xxl:w-[35px] max-xxl:bg-gradient-tb max-xxl:block"></span>
+              <div className="z-10 xl:hidden" onClick={() => setnav(!nav)}>
+                {nav === false ? <Threeline /> : <Cross />}
               </div>
             </nav>
           </div>
         </div>
-        <div className="flex lg:grow md:items-center max-lg:pt-[60px] max-lg:pb-[100px] max-md:pt-[30px] max-md:pb-[60px]">
+        <div className="flex grow items-center">
           <div className="container px-3">
             <h1 className="font-poppins font-normal lg:text-[72px] sm:text-[60px] text-[45px] xl:leading-[91.8px] sm:leading-[68px] leading-[51px] text-white max-w-[1320px]">
               There are games... And then{" "}
@@ -169,7 +176,7 @@ function HeroSection() {
                 />
                 Presale
               </button>
-              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white border border-white px-[34px] py-[14px] rounded-[79px] hover:bg-gradient-tb transition duration-300 ease-linear">
+              <button className="font-Josefin fw-normal text-[24px] leading-[24px] text-white border border-white px-[34px] py-[14px] rounded-[79px] hover:bg-white hover:text-black transition duration-300 ease-linear">
                 Join Now
               </button>
             </div>

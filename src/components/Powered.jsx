@@ -1,4 +1,6 @@
 import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import unerealImg1 from "../assets/images/webp/powerd-img1.webp";
 import uniswapImg2 from "../assets/images/webp/powerd-img2.webp";
 import geckoImg3 from "../assets/images/webp/powered-img3.webp";
@@ -7,8 +9,9 @@ import Slider from "react-slick";
 
 function Powered() {
   var settings = {
-    dots: false,
+    dots: true,
     arrows: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     cssEase: "linear",
     pauseOnHover: true,

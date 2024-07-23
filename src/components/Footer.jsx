@@ -43,6 +43,9 @@ function Footer() {
                   target="_blank"
                   className="w-[31.2px] h-[31.2px] border border-BorderGrey transition-all duration-300 ease-linear bg-grident-footer-IconBox flex justify-center items-center"
                 >
+                  {/* <span className={`inline-block ${className}`}>
+                    {icon && iconsList [icon]}
+                  </span> */}
                   <DiscordSvg />
                 </a>
                 <a

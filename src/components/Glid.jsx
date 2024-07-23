@@ -1,16 +1,16 @@
 import React from "react";
-import glidBgImg from "../assets/images/webp/glid-bg-img.webp";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import billionImg from "../assets/images/webp/billion-img.webp";
-import presale from "../assets/images/webp/presale-logo.webp";
+import presale from "../assets/images/webp/glid-2-img.webp";
 import holdersImg from "../assets/images/webp/holders-img.webp";
 import nftsoldImg from "../assets/images/webp/nft-sold-img.webp";
 import Slider from "react-slick";
 
 function Glid() {
   var settings = {
-    dots: false,
+    dots: true,
     arrows: false,
-    autoplay: true,
     autoplay: true,
     autoplaySpeed: 1000,
     cssEase: "linear",

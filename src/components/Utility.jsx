@@ -10,7 +10,7 @@ function Utility() {
             <h2 className="font-Josefin font-bold text-[48px] leading-[61px] text-[#7E5FCA] xl:text-start text-center lg:mb-4 sm:mb-2 mb-0">
               NFT <span className="text-white">Utility</span>
             </h2>
-            <p className="font-poppins font-normal text-[20px] leading-[35.9px] text-[#B2B3B4] xl:text-start text-center">
+            <p className="font-poppins font-normal min-lg:text-[20px] text-[16px] min-lg:leading-[35.9px] leading:[30px] text-[#B2B3B4] xl:text-start text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
               curabitur iaculis id cursus dignissim. Volutpat placerat volutpat
               commodo id ultricies volutpat vestibulum. Egestas venenatis
@@ -22,7 +22,7 @@ function Utility() {
               magna duis imperdiet posuere iaculis.
             </p>
           </div>
-          <div data-aos="fade-left" className="xl:w-[50%] w-full  px-3">
+          <div data-aos="fade-left" className="xl:w-[50%] w-full px-3">
             <div className="flex justify-center align-center">
               <img
                 className="w-full max-w-[369px] sm:h-[638px] h-[inherit] object-cover"
